@@ -87,4 +87,28 @@ The Linear Regression model predicts solar power output based on features such a
 Key insights and model performance metrics are displayed at the end of the analysis.
 
 
+# WEEK 2: Exploratory Data Analysis (EDA)
+
+## Overview
+In this week, we perform an in-depth **Exploratory Data Analysis (EDA)** to better understand the dataset and its features. The key focus areas include:
+
+- Histogram Analysis of Features
+- Bivariate Analysis using Scatter Plots and Correlation Heatmap
+- Outlier Detection using Boxplots
+
+## 1. Histogram Analysis
+To understand the distribution of each numerical feature, histograms are plotted for all numerical columns. Additionally, for better visualization, histograms are split into multiple sections.
+
+## 2. Bivariate Analysis - Scatter Plots and Correlation Heatmap
+Scatter plots are used to visualize relationships between features and the target variable (**Generated Power (kW)**). A correlation heatmap is also generated to analyze feature dependencies.
+
+## 3. Outlier Detection - Boxplots
+Boxplots help in detecting outliers for each numerical column, which can significantly impact model performance and accuracy.
+
+## Summary
+By performing **histogram analysis, scatter plots, correlation heatmaps, and boxplots**, we gain a deeper insight into the dataset, detect potential issues like outliers, and understand feature relationships. This analysis helps in better data preprocessing and model building in the next phase.
+
+
+
+
 
