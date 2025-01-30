@@ -10,13 +10,13 @@ Features
 
 ## The project includes the following functionalities:
 
--- Dataset Loading
+1. Dataset Loading
 
 Loads the dataset (solarpowergeneration.csv) using Pandas.
 
 Displays key insights such as the first and last few rows of the dataset.
 
--- Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 
 Shows the structure and size of the dataset.
 
@@ -24,19 +24,19 @@ Provides statistical summaries and dataset information.
 
 Checks for missing and duplicate values.
 
--- Data Visualization
+3. Data Visualization
 
 Plots the distribution of key variables such as generated_power_kw.
 
 Visualizes relationships between features using pair plots and correlation heatmaps.
 
--- Data Cleaning and Preprocessing
+4. Data Cleaning and Preprocessing
 
 Handles missing values using imputation or removal techniques.
 
 Scales and normalizes numerical features for better model performance.
 
--- Linear Regression Model
+5. Linear Regression Model
 
 Builds a predictive model to estimate solar power output.
 
@@ -87,7 +87,8 @@ Key insights and model performance metrics are displayed at the end of the analy
 
 
 
-# WEEK 2: Exploratory Data Analysis (EDA)
+# WEEK_2
+# Exploratory Data Analysis (EDA)
 
 ## Overview
 In this week, we perform an in-depth **Exploratory Data Analysis (EDA)** to better understand the dataset and its features. The key focus areas include:
