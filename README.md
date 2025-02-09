@@ -110,6 +110,54 @@ Boxplots help in detecting outliers for each numerical column, which can signifi
 By performing **histogram analysis, scatter plots, correlation heatmaps, and boxplots**, we gain a deeper insight into the dataset, detect potential issues like outliers, and understand feature relationships. This analysis helps in better data preprocessing and model building in the next phase.
 
 
+# WEEK_3
+# Machine Learning Model to Predict the Solar Power Generation
+
+
+## Project Overview
+
+This project involves building a Machine Learning model using Linear Regression to predict solar power generation. The model takes relevant input features and predicts the generated power in kilowatts (kW). The dataset is split into training and test sets, and performance is evaluated using Mean Absolute Error (MAE).
+
+## Dataset
+
+The dataset consists of multiple features related to solar power generation, with the target variable being generated_power_kw. Ensure the dataset is properly loaded into a DataFrame (df) before proceeding.
+
+## Implementation Steps
+
+1. Load and Prepare Data
+
+Drop the target column generated_power_kw from the features (X).
+
+Assign generated_power_kw as the target variable (y).
+
+2. Split the Dataset
+
+The dataset is split into training (80%) and testing (20%).
+
+3. Feature Scaling
+
+Standardization is applied to normalize the feature values.
+
+4. Train the Model
+
+A LinearRegression model is trained using the scaled training data.
+
+5. Evaluate the Model
+
+The model is tested on both training and test sets.
+
+Performance is measured using Mean Absolute Error (MAE).
+
+## Model Performance
+
+Mean Absolute Error on Test Set: This measures how far predictions are from actual values on unseen data.
+
+Mean Absolute Error on Train Set: This helps assess how well the model fits the training data.
+
+## Summary
+
+This README provides an overview of a Machine Learning project that predicts solar power generation using a Linear Regression model. It outlines key steps, including data preparation, dataset splitting, feature scaling, model training, and evaluation using Mean Absolute Error (MAE). Additionally, it highlights potential improvements such as using advanced models, feature engineering, and hyperparameter tuning.
+
 
 
 
